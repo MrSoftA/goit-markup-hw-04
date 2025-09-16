@@ -2,6 +2,10 @@ body{
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: #434455;
+    transform: scale(1.2);
+    transform-origin: top center;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -102,7 +106,7 @@ img{
 .adres-list{
     display: flex;
     gap: 40px;
-    margin-left: auto;
+    margin-left: 322px;
     /*margin-left: 242px;*/
 }
 
@@ -125,6 +129,11 @@ img{
     background-color: #2E2F42;
 
     padding: 188px 0;
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .logo-container{
@@ -162,6 +171,7 @@ img{
     border: none;
     border-radius: 4px;
     align-items: center;
+    margin-top: 48px;
 }
 
 .buton:hover,
