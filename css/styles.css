@@ -103,6 +103,7 @@ img{
 
 .header-list.current{
     position: relative;
+    width: 100%;
 
 }
 
