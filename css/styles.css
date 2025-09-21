@@ -410,7 +410,7 @@ img{
 
 .item-box:hover{
     background-color: #FFFFFF;
-    box-shadow: зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(0%);
 }
 
@@ -509,11 +509,12 @@ img{
 .footer-container{
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: baseline;
 }
 
 .footer-left {
     max-width: 400px;
+    margin-right: 120px;
 }
 
 .footer-right {
@@ -530,8 +531,14 @@ img{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
-.social-link-footer:hover{
+.footer-list{
+    gap: 16px;
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus{
     background-color: #31D0AA;
 }
