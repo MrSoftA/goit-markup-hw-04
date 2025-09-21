@@ -118,6 +118,10 @@ img{
     background-color: #404BBF;
 }
 
+.header-list::after{
+    width: 100%;
+}
+
 .adres{
     list-style: none;
     color:#434455;
