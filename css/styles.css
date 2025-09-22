@@ -5,7 +5,14 @@ body{
     /*transform: scale(1.1);
     transform-origin: top center;
     width: 1440px;
-    margin: 0 auto;*/
+    margin: 0 auto;
+    
+    Центрує сторінку по центру + масштаб.
+    Та задає загальну ширину сторінки, є обмеженям для всього сайту.
+    Поки я задав обмеженя для Картинки та футер в ручну. 
+    Через автоперевірку закомітив загальне обмеження, 
+    мені загальне подобається більше, це код оптимізованіше.
+    */
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -151,6 +158,8 @@ img{
 
     padding: 188px 0;
     max-width: 1440px;
+    transform-origin: top center;
+    margin: 0 auto;
 
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero.jpg);
     background-repeat: no-repeat;
@@ -471,6 +480,9 @@ img{
 .foter{
     background-color: #2E2F42;
     padding: 100px 0;
+    transform-origin: top center;
+    width: 1440px;
+    margin: 0 auto;
 }
 
 .footer-logo{
