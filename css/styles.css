@@ -2,10 +2,10 @@ body{
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     color: #434455;
-    transform: scale(1.1);
+    /*transform: scale(1.1);
     transform-origin: top center;
     width: 1440px;
-    margin: 0 auto;
+    margin: 0 auto;*/
 }
 
 h1,h2,h3,h4,h5,h6,p{
